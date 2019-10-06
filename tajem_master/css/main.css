@@ -583,13 +583,13 @@ body {
   cursor: pointer;
 }
 
-textarea {
+ttextarea {
   font-family: 'Roboto';
 }
 
 #your-massage {
-  height: 170px;
-  width: 347px;
+  height: 150px;
+  width: 349px;
   margin-bottom: 70px;
   padding: 15px 15px;
   letter-spacing: 0.6px;
