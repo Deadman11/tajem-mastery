@@ -1,0 +1,762 @@
+@import 'grid'
+@import 'fonts'
+
+// ШАПКА HEADER --------------------------------------------
+
+.header-wrap
+  max-height: 700px
+  width: 100%
+
+  &__bg 
+    background: linear-gradient(to right, rgba(9, 5, 47, .7) 0%, rgba(49, 29, 94, .7) 100%), url("../img/bg/fon.png")
+    background-size: cover
+    height: 700px
+    width: 100%
+    background-repeat: no-repet
+
+
+.header-nav
+  display: flex
+
+  &__wrap
+    display: flex
+    align-items: center
+    
+
+  &__img
+    padding-top: 20px
+    padding-right: 10px
+    margin-left: 130px
+
+
+  &__text 
+    font-size: 30px
+    font-weight: 200
+    background: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%)
+    background-clip: text
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    padding-top: 10px
+    +thin
+
+
+  &__menu
+    margin-left: 280px
+    font-size: 15px
+    text-transform: uppercase
+    font-weight: bold
+    +tobthin
+    
+
+  &__menu ul 
+    display: flex
+    padding-top: 35px
+
+  &__menu a 
+    margin-left: 25px
+    color: #ffffff
+
+  &__menu a:hover
+    color: #00e0d0
+    
+
+
+.header-title
+  display: block
+  text-align: center
+  padding-top: 170px
+
+
+.title
+  color: #ffffff
+  font-size: 32px
+  font-weight: 800
+  padding-bottom: 20px
+  +black
+
+.line
+  margin-left: 48%
+  width: 50px
+  border-bottom: 1px solid #00e0d0
+
+
+.subtitle
+  padding-top: 30px
+  padding-bottom: 50px
+  width: 770px
+  color: #ffffff
+  font-size: 14px
+  font-weight: 300
+  line-height: 24px
+  letter-spacing: 0.5px
+  margin-left: 16%
+  +thin
+
+.button-more
+  text-transform: uppercase
+  color: #00e0d0
+  padding: 11px 15px
+  background: transparent
+  border-radius: 2px 2px 2px 2px 
+  border: 1px solid #00e0d0
+  cursor: pointer
+  +hamm
+
+.button-circle
+  margin-top: 130px
+  width: 10px
+  height: 10px
+  background: transparent 
+  border-radius: 50%
+  border: 1px solid #c2c2c2
+  cursor: pointer
+
+.button-circle:hover
+  background: #c2c2c2
+
+
+    
+// STOTY ИСТРИЯ + ВИДЕО 2 блок  ==============================
+// ===========================================================
+// ===========================================================
+
+.about-wrap
+  padding-top: 70px
+  display: flex
+  justify-content: center
+
+  
+
+  &__img
+    padding-right: 100px
+
+
+  &__title
+    font-size: 22px
+    font-weight: 700
+    text-transform: uppercase
+    color: #413d4b
+    padding-bottom: 20px
+    letter-spacing: 1.1px
+    +disbold
+
+
+  &__subtitle
+    width: 538px
+    font-size: 14px
+    font-weight: 300
+    line-height: 22px
+    color: #413d4b
+    +tobthin
+
+.button-two
+  margin-left: 480px
+  margin-bottom: 70px
+
+
+
+// ЭКСПЕРТИЗА ИЛИ ЧТО МЫ ДЕЛАЕМ --------------------------------------
+
+
+
+.expertise-wrap
+  padding-top: 70px
+  text-align: center
+
+
+  &__title
+    color: #413d4b
+    font-size: 22px
+    font-weight: 700
+    text-transform: uppercase
+    +black
+
+  &__subtitle
+    padding-top: 15px
+    padding-bottom: 20px
+    opacity: 0.75
+    color: #2f2d35
+    font-size: 15px
+    font-weight: 400
+    letter-spacing: 1.05px
+    +dis400it
+
+  &__line2
+    border-bottom: 2px solid #413d4b
+    width: 50px
+    margin-left: 48%
+    opacity: 0.3
+
+    
+
+
+
+
+.box-wrap
+  display: flex
+  flex-wrap: wrap
+  padding-top: 50px
+  margin-left: 50px
+  padding-bottom: 70px
+  letter-spacing: 0.7px
+
+
+  &__three
+    border-bottom: 1px solid #000000
+    padding-bottom: 50px
+    
+
+  &__one,&__two
+    width: 250px
+    height: 250px
+    text-align: center
+    border-right: 1px solid #000000
+    border-bottom: 1px solid #000000
+    padding-right: 50px
+    padding-left: 50px
+    padding-bottom: 50px
+
+  &__four,&__five
+    width: 250px
+    height: 250px
+    text-align: center
+    padding-right: 50px
+    padding-left: 50px
+    padding-bottom: 50px
+    border-right: 1px solid #000000
+
+
+  &__three,&__six
+    width: 250px
+    height: 250px
+    text-align: center
+    padding-right: 50px
+    padding-left: 50px
+  
+
+  &__img
+    padding-top: 50px
+    padding-bottom: 30px
+
+
+  &__title
+    padding-bottom: 25px
+    color: #413d4b
+    font-size: 14px
+    font-weight: 800
+    text-transform: uppercase
+    +thin
+    
+
+
+  &__subtitle
+    opacity: 0.75
+    color: #333333
+    padding-bottom: 20px
+    font-size: 14px
+    font-weight: 400
+    line-height: 22px
+    +tobthin
+
+
+
+
+
+
+// Team Команда         ------------------------------------------------
+
+
+
+.team-bg
+  background: linear-gradient(to right, rgba(9, 5, 47, .7) 0%, rgba(49, 29, 94, .7) 100%), url("../img/bg/fon2.png")
+  background-size: cover
+  background-repeat: no-repet
+  width: 100%
+  height: 770px
+
+
+.team-wrap
+
+
+
+  &__headline
+    text-align: center
+    padding-top: 70px
+
+
+.team-headline
+
+  &__title
+    text-transform: uppercase
+    font-size: 22px
+    font-weight: 800
+    color: #ffffff
+    letter-spacing: 1.1px 
+    +black
+
+  &__subtitle
+    padding-top: 15px
+    font-size: 14px
+    font-weight: 400
+    color: #f9f9f9
+    letter-spacing: 1.05px
+    +black
+
+  &__line
+    margin-top: 20px
+    margin-left: 48%  
+    margin-bottom: 50px
+    border-bottom: 2px solid #000000
+    width: 50px 
+    opacity: 0.2
+    
+
+.team-wrap__box
+  display: flex
+  margin-left: 95px 
+  text-align: center 
+
+.team-box
+
+  &__wrap
+    margin-left: 20px
+    border: 1px solid white
+
+
+  
+  &__photo
+    width: 220px
+    height: 230px
+    background-color: black
+    
+
+
+  &__name
+    padding-top: 25px 
+    padding-bottom: 10px
+    font-size: 14px
+    font-weight: 400
+    color: #ffffff
+    letter-spacing: 0.7px
+    +thin
+
+  &__pos
+    opacity: 0.7
+    color: #fafafa
+    font-size: 13px
+    font-weight: 350
+    padding-bottom: 25px
+    letter-spacing: 0.7px;
+    +tobthin
+
+
+
+.some-box
+  padding-top: 70px
+  text-align: center
+  
+
+  &__p
+    color: #f3f3f3
+    font-family: Roboto
+    font-size: 14px
+    font-weight: 300
+    +tobthin
+
+
+  &__btn
+    margin-top: 30px
+    margin-bottom: 70px
+    +hamm
+
+
+
+//  =============================================
+//  =============== наши работы =================
+//  =============================================
+
+
+.our-wrap
+  display: flex
+  align-items: center
+  margin-top: 70px
+  margin-bottom: 70px
+  margin-left: 100px
+  
+
+.works-title
+  color: #413d4b
+  font-size: 22px
+  font-weight: 700
+  text-transform: uppercase
+  letter-spacing: 1.1px
+  +black
+
+.other-info
+  padding-left: 600px
+  color: #413d4b
+  font-family: Roboto
+  font-size: 14px
+  font-weight: 300
+  letter-spacing: 0.7px
+
+.other-img
+  padding-left: 10px
+  margin-top: 2px
+
+
+
+.works-box
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  margin-bottom: 70px
+
+
+  &__port
+    width: 270px
+    height: 179px
+    border: 1px solid red
+    margin: 1px 1px
+
+
+.load-more
+  margin-left: 520px
+  margin-bottom: 70px
+
+
+
+// ===================================================
+// ================= REVIEWS =========================
+// ===================================================
+
+.reviews
+
+
+
+
+  &-bg
+    background: linear-gradient(to right, rgba(9, 5, 47, .7) 0%, rgba(49, 29, 94, .7) 100%), url("../img/bg/fon3.png")
+    background-size: cover
+
+
+  &-quotes
+    padding-top: 70px
+    padding-bottom: 45px
+    text-align: center
+    font-size: 100px
+    font-weight: 400
+    line-height: 22px
+    color: #ffffff
+    opacity: 0.9
+    +plreg
+
+
+  &-text
+    padding-bottom: 55px
+    padding-left: 200px
+    color: #ffffff
+    text-align: center
+    width: 770px
+    opacity: 0.85
+    font-size: 16px
+    font-weight: 400
+    line-height: 26px
+    letter-spacing: 0.4px
+    +plreg
+
+
+  &-name
+    font-size: 14px
+    font-weight: 400
+    line-height: 22px
+    text-transform: uppercase
+    color: #ffffff
+    text-align: center
+    +tobthin
+
+  &-pos
+    font-size: 13px
+    font-weight: 300
+    line-height: 22px
+    text-transform: uppercase
+    color: #ffffff
+    text-align: center
+    +tobthin
+
+  &-photo
+    text-align: center
+
+
+.scrolling-img
+  display: flex
+  justify-content: center
+  padding-top: 60px
+  padding-bottom: 80px
+
+
+.btn-one
+  font-size: 30px
+  background: transparent
+  border: none
+  cursor: pointer
+  padding: 20px 20px
+  color: #ffffff
+
+
+
+// ===========================================================
+// ==================== КОНТАКТЫ (CONTACT)====================
+// ===========================================================
+
+
+.contact-client-box
+  display: flex
+  justify-content: space-around
+
+.contacts
+  margin-top: 75px
+
+.message
+  +plreg
+
+  &-title
+    font-size: 25px
+    font-weight: 700
+    text-transform: uppercase
+    letter-spacing: 1.1px
+    +plreg
+
+
+  &-lines 
+    display: block
+    padding-top: 35px
+    
+  &-lines input
+    width: 347px
+    margin-bottom: 23px
+    padding: 15px 15px
+    letter-spacing: 0.7px
+    font-size: 15px
+    font-weight: 400
+    +tobthin
+
+
+  &-btn
+    margin-bottom: 70px 
+    background: transparent
+    padding: 15px 30px
+    border: 1px solid #00e0d0
+    text-transform: uppercase
+    font-size: 16px
+    font-weight: 400
+    color: #00e0d0
+    border-radius: 2px
+    cursor: pointer
+
+
+textarea,
+  +tobthin
+
+#your-massage
+  margin-bottom: 70px
+  padding: 15px 15px
+  letter-spacing: 0.6px
+  font-size: 15px
+  font-weight: 400
+
+
+.clients-title
+  font-size: 25px
+  font-weight: 700
+  text-transform: uppercase
+  padding-bottom: 50px 
+  +plreg
+
+
+
+//  =============================================
+//  ============== footer ПОДВАЛ ================
+//  =============================================
+
+
+.footer
+
+
+  &-bg
+    background: linear-gradient(to right, rgba(9, 5, 47, .7) 0%, rgba(49, 29, 94, .7) 100%), url("../img/bg/footer.png")
+    background-repeat: no-repeat
+    background-size: cover
+    
+
+  &-wrap
+    display: flex 
+    justify-content: space-between
+    padding-top: 100px
+    padding-bottom: 50px
+  
+
+  &-logo
+    display: flex
+    padding-bottom: 20px
+
+  &-tajam
+    padding-left: 20px
+    font-size: 30px
+    font-weight: 100
+    background: linear-gradient(to right, #00e0d0 0%, #4aa3cc 100%)
+    background-clip: text
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    padding-top: 10px
+    +thin
+    
+  &-text
+    width: 300px
+
+
+
+  &_our-studio
+    
+.our-studio_title
+  padding-bottom: 30px
+  padding-top: 20px
+  color: white
+  font-size: 15px
+  font-weight: 600
+  line-height: 26px
+  text-transform: uppercase
+  letter-spacing: 0.75px
+  +tobthin
+
+
+.our-studio_address
+  width: 270px
+  display: flex
+  padding-bottom: px
+
+.address-img
+  height: 20px
+  padding-right: 20px
+
+
+.our-studio_number
+  display: flex
+  padding-top: 10px 
+
+.number-img
+  height: 20px
+  padding-right: 20px
+
+
+.stay-in-touch
+
+  &_title
+    padding-bottom: 40px
+    font-size: 15px
+    font-weight: 900
+    line-height: 1.73
+    letter-spacing: 0.75px
+    color: #ffffff
+    +thin
+
+  
+
+
+  &_newsletter
+
+
+  &_newsletter input
+    background-color: transparent
+    border: none
+    font-family: Roboto
+    font-size: 14px
+    font-weight: 300
+    line-height: 1.86
+    letter-spacing: 0.7px
+    color: rgba(255, 255, 255, 0.75)
+    padding: 10px 16px
+    border: solid 1px #ffffff
+
+
+.newsletter-input-btn
+  display: flex
+
+
+.newsletter-btn
+  margin-left: 10px
+  padding: 7px 20px
+  align-items: center
+  opacity: 0.5
+  border: 1px solid #ffffff
+  background-color: #ffffff
+  cursor: pointer
+  
+
+
+
+
+.social-link
+  padding-top: 20px
+  display: flex
+  font-size: 15px
+  text-align: center
+  
+.social-link a
+  color: white
+
+.social-link li
+  margin-left: 5px
+  padding: 13px 10px
+  border: 1px solid white
+  border-radius: 50%
+  width: 20px
+  height: 15px
+
+
+
+.footer-info
+  display: flex
+  justify-content: space-between
+  padding-bottom: 70px
+
+
+.footer-help a
+  color: white
+  font-family: Roboto
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+  letter-spacing: 0.35px
+
+.footer-terms, .footer-priv
+  padding-left: 25px
+
+
+  
+
+.footer-copy
+  color: #ffffff
+  font-family: Roboto
+  font-size: 14px
+  font-weight: 400
+  line-height: 26px
+
+
+
+.footer p
+  color: white
+  font-size: 16px
+  font-weight: 300
+  line-height: 26px
+  letter-spacing: 0.35px
+  +thin
+
+
+
+
+
+
+
+
+
