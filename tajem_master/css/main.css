@@ -588,6 +588,8 @@ textarea {
 }
 
 #your-massage {
+  height: 170px;
+  width: 347px;
   margin-bottom: 70px;
   padding: 15px 15px;
   letter-spacing: 0.6px;
