@@ -1,2 +1,0 @@
-# tajem-mastery
-tajem-mastery
